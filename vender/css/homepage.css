@@ -1,0 +1,816 @@
+/* slide */
+
+
+/* slide */
+.bg-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.slide-box{
+    width:100vw;
+    height: 500px;
+/* background-color: red; */
+
+}
+.slide-box .box-img{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+.slide-box .box-img .txt{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.slide-box .box-img .txt h2{
+    color: white;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center;
+   
+}
+.slide-box .box-img .txt p{
+    padding: 10px 0px;
+    line-height: 35px;
+    text-align: center;
+    color: rgba(231, 231, 231, 0.986);
+    font-size: 23px;
+}
+
+
+
+
+
+/* end my slide */
+
+
+.txt-pop{
+    width: 100%;
+    border-bottom: 5px solid #198754;
+    margin: 20px 0px;
+    /* padding: 5px; */
+}
+.title-pop{
+    font-size: 30px;
+    color: white;
+    background-color: #198754;
+    padding: 0px 30px;
+}
+
+.txt-pop a{
+    text-decoration: none;
+     border-top-right-radius: 15px;
+     border-top-left-radius: 10px;
+     color: white;
+}
+
+
+/* popular collection */
+.mypop{
+    padding: 10px 20px;
+    margin: 20px 0px;
+    /* background-color: wheat; */
+    box-shadow: 4px 4px 3px rgba(76, 77, 78, 0.726);
+}
+.pop-box{
+    padding: 0px;
+    height: 500px;
+    /* background-color: rgb(30, 255, 0); */
+    /* position: relative; */
+    overflow: hidden;
+    
+}
+.pop-box:last-child{
+    height: 500px;
+}
+
+.popcontent{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.popcontent .box-image{
+    transition: 0.5s;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+}
+.pop-box .top-box{
+    margin-bottom: 1%;
+    float: left;
+    height: 49%;
+    width: 100%;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.pop-box .buttom-box{
+    /* padding: 5px; */
+    margin-top: 1%;
+    float: left;
+    height: 49%;
+    width: 100%;
+}
+.text-name{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* height: 100px; */
+    padding: 20px;
+   bottom: 0;
+    left: 0;
+    
+ 
+    
+}
+.text-name h3{
+    text-align: center;
+    text-shadow: 4px 4px 3px rgba(27, 27, 27, 0.877);
+}
+
+/* custom text */
+.text-l{
+    font-size: 30px;
+}
+.text-tr{
+    font-size: 28px;
+}
+.text-bl{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.text-br{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+
+.box-image:hover
+{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.buttom-box .left{
+    margin-right: 1%;
+    width: 49%;
+    height: 100%;
+    background-color: yellow;
+    float: left;
+    overflow: hidden;
+}
+.buttom-box .right{
+    margin-left: 1%;
+    width: 49%;
+    height: 100%;
+    background-color: rgb(51, 255, 0);
+    float: left;
+    overflow: hidden;
+}
+
+/*btn read more */
+.btn-more{
+    background-color: #198754;
+    border-radius: 20px;
+    padding:8px 20px ;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    float: right;
+}
+.text-name a{
+    color: white;
+}
+
+.btn-more i{
+    padding-left: 10px;
+}
+
+.btn-more:hover{
+    letter-spacing: 2px;
+}
+
+.btn-tr{
+    padding: 5px 22px;
+    border-radius: 15px;
+}
+.btn-bl{
+    padding: 4px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.btn-br{
+    padding: 4px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+
+/* End read more */
+/* ------------------------Action section------------------------------- */
+/* Videos*/
+.videos-box{
+    margin: 20px 0px;
+    height: 550px;
+    width: 100%;
+    /* background-color: #198754; */
+    background-color: whitesmoke;
+    padding: 10px;
+    box-shadow: 4px 4px 3px rgba(76, 77, 78, 0.726);
+}
+.videos-box iframe{
+    width: 100%;
+    height: 100%;
+}
+
+/* choise  to visit */
+
+.contact-now{
+    float: right;
+}
+.mybox-img{
+ overflow: hidden;
+    }
+.mybox-img img{
+    transition: 0.4s;
+}
+.mybox-img img:hover{
+    transform: scale(1.1) !important;
+}
+.pland-card{
+    height: 380px !important;
+}
+.pland-card .mybox-img{
+    width: 100%;
+    height: 50%;
+}
+.pland-card .mybox-img img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.pland-card .txt-card{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+.txt-card .contact-now{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.where-togo{
+    font-weight: bold;
+}
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Home page responsive */
+/* Responsive solution */
+
+/* Extra large devices (large desktop, 1200px and up) */
+
+@media (min-width: 1200px)
+{
+
+}
+/* Large devices (desktop, 992px and up */
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+/*slide  */
+.slide-box{
+    height: 480px;
+}
+.slide-box .box-img .txt h2{
+    font-size: 30px;
+   
+}
+.slide-box .box-img .txt p{
+    font-size: 20px;
+}
+/* end slide */
+/* pop tiltle */
+.txt-pop{
+    margin: 18px 0px;
+}
+.title-pop{
+    font-size: 20px;
+    padding: 0px 28px;
+}
+
+/* popular collectivideos-box
+.pop-box{
+    padding: 0px;
+    height: 450px;
+    
+}
+.pop-box:last-child{
+    height: 450px;
+}
+
+
+
+.btn-l{
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+.btn-tr{
+    padding: 5px 22px;
+    border-radius: 15px;
+}
+.btn-bl{
+    padding: 4px 15px;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+.btn-br{
+    padding: 4px 15px;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+/* End read more */
+
+
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+/*slide  */
+.slide-box{
+    height: 380px;
+}
+.slide-box .box-img .txt{
+    transform: translate(-50%,-30%);
+}
+.slide-box .box-img .txt h2{
+    font-size: 25px;
+    font-weight:100;
+   
+}
+.slide-box .box-img .txt p{
+    padding: 5px 0px;
+    line-height: 35px;
+    font-size: 18px;
+}
+/* end slide */
+/* pop tiltle */
+.txt-pop{
+    width: 100%;
+    border-bottom: 5px solid #198754;
+    margin: 18px 0px;
+    /* padding: 5px; */
+}
+.title-pop{
+    font-size: 20px;
+    padding: 0px 28px;
+}
+
+.txt-pop a{
+    text-decoration: none;
+     border-top-right-radius: 13px;
+     border-top-left-radius: 8px;
+}
+/* Emd pop title */
+/* popular collection */
+
+.pop-box{
+    padding: 0px;
+    height: 320px;
+    
+}
+.pop-box:last-child{
+    height: 320px;
+}
+
+
+
+.btn-l{
+    padding: 5px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.btn-tr{
+    padding: 5px 22px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.btn-bl{
+    padding: 4px 15px;
+    font-size: 13px;
+    border-radius: 15px;
+}
+
+.btn-br{
+    padding: 4px 15px;
+    font-size: 13px;
+    border-radius: 15px;
+}
+/* custom text */
+.text-l{
+    font-size: 25px;
+}
+.text-tr{
+    font-size: 23px;
+}
+.text-bl{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.text-br{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* End read more */
+
+/* choise to go */
+/* choise  to visit */
+
+.pland-card{
+    height: 380px !important;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* End choise to go */
+
+/* Videos*/
+.videos-box{
+    margin: 20px 0px;
+    height: 550px;
+    width: 100%;
+    /* background-color: #198754; */
+    background-color: whitesmoke;
+    padding: 10px;
+    box-shadow: 4px 4px 3px rgba(76, 77, 78, 0.726);
+}
+.videos-box iframe{
+    width: 100%;
+    height: 100%;
+}
+
+/* choise  to visit */
+
+
+
+
+
+
+
+
+
+
+
+}
+/* Small devices (landscape phone, 576px and up */
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+/*slide  */
+    .slide-box{
+        height: 370px;
+    }
+    .slide-box .box-img .txt{
+        transform: translate(-50%,-30%);
+    }
+    .slide-box .box-img .txt h2{
+        /* color: red; */
+        font-size: 23px;
+        font-weight:200;
+    
+    }
+    .slide-box .box-img .txt p{
+        padding: 5px 0px;
+        line-height: 32px;
+        font-size: 16px;
+    }
+/* end slide */
+/* pop tiltle */
+    .mypop{
+        margin-top: 0px;
+    }
+    .txt-pop{
+        width: 100%;
+        margin: 17px 0px;
+        border-bottom: 4px solid #198754;
+    }
+    .title-pop{
+        font-size: 18px;
+        padding: 0px 28px;
+    }
+
+    .txt-pop a{
+        text-decoration: none;
+        border-top-right-radius: 13px;
+        border-top-left-radius: 8px;
+    }
+/* Emd pop title */
+
+/* popular collection */
+
+.mypop{
+    padding: 10px 20px;
+    margin: 20px 0px;
+}
+.pop-box{
+    padding: 0px;
+    height: 300px;
+    
+}
+.pop-box:last-child{
+    height: auto;
+}
+.popcontent{
+    width: 100%;
+    height: 100%;
+}
+.popcontent .box-image{
+    transition: 0.5s;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+}
+.pop-box .top-box{
+    margin-top: 10px;
+    margin-bottom: 0%;
+    height: 300px;
+    width: 100%;
+}
+.pop-box .buttom-box{
+    margin-top: 0%;
+    width: 100%;
+}
+
+
+.buttom-box .left{
+    margin-right: 0%;
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+}
+.buttom-box .right{
+    margin-top: 10px;
+    margin-left: 0%;
+    width: 100%;
+    height: 300px;
+}
+/*  choise where to go*/
+/* choise  to visit */
+
+.contact-now{
+    float: right;
+}
+
+.mybox-img{
+ overflow: hidden;
+    }
+.mybox-img img{
+    transition: 0.4s;
+}
+.mybox-img img:hover{
+    transform: scale(1.1) !important;
+}
+.pland-card{
+    margin-bottom: 20px;
+    height: 480px !important;
+}
+
+.pland-card .mybox-img{
+    width: 100%;
+    height:60%;
+}
+.pland-card .mybox-img img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.pland-card .txt-card{
+    width: 100%;
+    height: 40%;
+    position: relative;
+}
+.txt-card .contact-now{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.where-togo{
+    font-weight: bold;
+}
+
+/* Videos*/
+.videos-box{
+    margin: 10px 0px;
+    height: 350px;
+    width: 100%;
+ }
+
+
+/* End where to go */
+
+}
+
+/* Extra small devices (protrait phone , less that 567px)*/
+@media (max-width: 575.98px)
+{
+    /*slide  */
+        .slide-box{
+            height: 280px;
+        }
+        .slide-box .box-img .txt{
+            transform: translate(-50%,-30%);
+        }
+        .slide-box .box-img .txt h2{
+            margin: 0px;
+            /* color: red; */
+            font-size: 18px;
+            font-weight:200;
+        
+        }
+        .slide-box .box-img .txt p{
+            display: none;
+        }
+/* end slide */
+/* pop tiltle */
+        .mypop{
+            margin-top: 0px;
+        }
+        .txt-pop{
+            width: 100%;
+            margin: 15px 0px 0px;
+            border-bottom: 3px solid #198754;
+        }
+        .title-pop{
+            font-size: 17px;
+            padding: 0px 25px;
+        }
+
+        .txt-pop a{
+            text-decoration: none;
+            border-top-right-radius: 13px;
+            border-top-left-radius: 8px;
+        }
+/* Emd pop title */
+/* popular */
+
+
+.btn-l{
+    padding: 5px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.btn-tr{
+    padding: 5px 22px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.btn-bl{
+    padding: 4px 15px;
+    font-size: 13px;
+    border-radius: 15px;
+}
+
+.btn-br{
+    padding: 4px 15px;
+    font-size: 13px;
+    border-radius: 15px;
+}
+/* custom text */
+.text-l{
+    font-size: 25px;
+}
+.text-tr{
+    font-size: 23px;
+}
+.text-bl{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.text-br{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+/* end btn pop */
+
+.mypop{
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+.pop-box{
+    padding: 0px;
+    height: 200px;
+    
+}
+.pop-box:last-child{
+    height: auto;
+}
+.popcontent{
+    width: 100%;
+    height: 100%;
+}
+.popcontent .box-image{
+    transition: 0.5s;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+}
+.pop-box .top-box{
+    margin-top: 10px;
+    margin-bottom: 0%;
+    height: 200px;
+    width: 100%;
+}
+.pop-box .buttom-box{
+    margin-top: 0%;
+    width: 100%;
+}
+
+
+.buttom-box .left{
+    margin-right: 0%;
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+}
+.buttom-box .right{
+    margin-top: 10px;
+    margin-left: 0%;
+    width: 100%;
+    height: 200px;
+}
+
+/*  */
+
+.pland-card{
+    margin-bottom: 20px;
+    height: 350px !important;
+}
+
+.pland-card .mybox-img{
+    width: 100%;
+    height:60%;
+}
+.pland-card .mybox-img img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.pland-card .txt-card{
+    width: 100%;
+    height: 40%;
+    position: relative;
+}
+.txt-card .contact-now{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+/* Videos*/
+.videos-box{
+    margin: 10px 0px;
+    height: 300px;
+    width: 100%;
+ }
+
+
+}

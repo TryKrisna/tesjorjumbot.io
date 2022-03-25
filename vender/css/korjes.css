@@ -1,0 +1,548 @@
+
+
+
+/* content */
+.korjes{
+    margin-top: 20px;
+    height: auto;
+}
+.left-side{
+    /* background-color: rebeccapurple; */
+    margin-bottom: 20px;
+    height:auto;
+}
+.right-side{
+    /* background-color: aqua; */
+    height: auto;
+    /* box-shadow: 4px 4px 3px rgba(76, 77, 78, 0.726); */
+}
+.add-box{
+    height:auto;
+}
+.b-name{
+    color: palevioletred;
+}
+.left-side h1{
+    font-size: 32px;
+    color: #198754;
+}
+.uploade-date{
+    font-size: 16px;
+    color: palevioletred;
+}
+
+.box-img{
+    background-color: rgb(206, 0, 0);
+    width: 100%;
+    height:250px;
+}
+
+.text-img{
+    overflow: hidden;
+}
+.img-box{
+    overflow: hidden;
+}
+
+.box-img:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+}
+.introl{
+    text-indent: 40px;
+    font-size: 18px
+}
+.text-l{
+    margin: auto 0px;
+}
+.text-img{
+    margin-top: 10px;
+    padding: 0px 5px;
+}
+
+.buttom-txt{
+    padding: 20px 0px;
+}
+/*  */
+.r-name{
+    text-align: center;
+    color: palevioletred;
+    font-size: 28px;
+}
+.myflex{
+    display: flex;
+}
+/* .myflex .t-img{
+    order: 1;
+}
+.myflex .b-text
+{
+    order: 2;
+}
+.myflex .second-img
+{
+    order: 3;
+}
+.myflex .text-4
+{
+    order: 4;
+} */
+.collection{
+    margin-bottom: 20px;
+    height: auto;
+}
+    
+    /* End content */
+
+/* Right content */
+.img-cotent{
+    margin: 20px 0px;
+    width: 100%;
+   border: 2px solid #198754 ;
+    box-shadow: 4px 4px 3px rgba(76, 77, 78, 0.726);
+    height: 160px;
+}
+.img-cotent .img-box-con{
+    float: left;
+    width: 40%;
+    /* background-color: #198754; */
+    height: 100%;
+
+}
+
+.img-cotent .text{
+    float: left;
+    width: 60%;
+    /* background-color: #9bfc2c; */
+    height: 100%;
+    padding:10px;
+}
+
+.img-cotent .text h4{
+    font-size: 25px;
+    color: #198754;
+}
+
+.img-cotent .text p{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.btn-go{
+    background-color: #198754;
+    border-radius: 5px;
+    padding:5px 15px ;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    float: right;
+    font-size: 16px;
+}
+.btn-go:hover{
+    letter-spacing: 2px;
+    color: white;
+}
+.vid{
+    height:250px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------- */
+/* Responsive query */
+/* Responsive solution */
+
+/* Extra large devices (large desktop, 1200px and up) */
+
+@media (min-width: 1200px)
+{
+
+}
+/* Large devices (desktop, 992px and up */
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+    .introl{
+        font-size: 15px;
+    }
+    .vid{
+        height:210px;
+        width: 100%;
+    }
+    
+    .box-img{
+        width: 100%;
+        height:220px;
+    }
+
+    /* Right content */
+    .img-cotent{
+        margin: 20px 0px;
+        width: 100%;
+        height: 280px;
+    }
+    .img-cotent .img-box-con{
+        float: left;
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .img-cotent .text{
+        width: 100%;
+        height: 50%;
+        padding:10px;
+    }
+
+    .img-cotent .text h4{
+        font-size: 23px;
+    }
+
+    .img-cotent .text p{
+        font-size: 14px;
+    }
+    .btn-go{
+      
+        padding:5px 15px ;
+        font-size: 15px;
+    }
+    .btn-go:hover{
+        letter-spacing: 2px;
+
+    }
+
+
+
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .left-side h1{
+        font-size: 30px;
+    }
+    .vid{
+        height:200px;
+        width: 100%;
+    }
+    
+    .uploade-date{
+        font-size: 16px;
+    }
+    .introl{
+        font-size: 15px;
+    }
+    .box-img{
+        width: 100%;
+        height:220px;
+    }
+    .myflex .t-img{
+        order: 1;
+    }
+    .myflex .b-text
+    {
+        padding: 10px;
+        order: 2;
+    }
+    .b-text p{
+        margin: 0px;
+    }
+    .myflex .second-img
+    {
+        order: 3;
+    }
+    .myflex .text-4
+    {
+        order: 4;
+        padding: 10px;
+    }
+    .text-4 p{
+        text-indent: 0px;
+        margin-bottom: 0px;
+    }
+    .myflex .text-5
+    {
+        padding: 10px;
+        order: 5;
+    }
+    .buttom-txt{
+        padding: 0px 0px;
+        margin: 0px;
+    }
+    .text-5 p{
+        text-indent: 0px;
+    }
+    .myflex .text-6
+    {
+        order: 6;
+    }
+    /* collection */
+    .col-img{
+        height: 150px;
+    }
+    
+    /* Right content */
+    .img-cotent{
+        margin: 20px 0px;
+        width: 100%;
+        height: 260px;
+    }
+    .img-cotent .img-box-con{
+        float: left;
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .img-cotent .text{
+        width: 100%;
+        height: 50%;
+        padding:10px;
+    }
+
+    .img-cotent .text h4{
+        font-size: 21px;
+    }
+
+    .img-cotent .text p{
+        font-size: 13px;
+    }
+    .btn-go{
+      
+        padding:3px 12px ;
+        font-size: 14px;
+    }
+    .btn-go:hover{
+        letter-spacing: 0px;
+
+    }
+    .text-6 p{
+        padding: 15px;
+    }
+
+
+
+}
+/* Small devices (landscape phone, 576px and up */
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    .vid{
+        height:190px;
+    }
+    
+    .left-side h1{
+        font-size: 28px;
+    }
+    .uploade-date{
+        font-size: 15px;
+    }
+    .introl{
+        font-size: 15px;
+    }
+    .box-img{
+        width: 100%;
+        height:250px;
+    }
+    .myflex .t-img{
+        order: 1;
+    }
+    .myflex .b-text
+    {
+        padding: 20px;
+        order: 2;
+    }
+    .b-text p{
+        margin: 0px;
+    }
+    .myflex .second-img
+    {
+        order: 3;
+    }
+    .myflex .text-4
+    {
+        order: 4;
+        padding: 10px;
+    }
+    .text-4 p{
+        text-indent: 0px;
+        margin-bottom: 0px;
+    }
+    .myflex .text-5
+    {
+        padding: 10px;
+        order: 5;
+    }
+    .buttom-txt{
+        padding: 0px 0px;
+        margin: 0px;
+    }
+    .text-5 p{
+        text-indent: 0px;
+    }
+    .myflex .text-6
+    {
+        order: 6;
+    }
+    .text-6 p{
+        padding: 10px;
+    }
+    /* collection */
+    .col-img{
+        height: 230px;
+    }
+    .collection{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .korjes{
+       padding-left: 20px;
+       padding-right: 20px;
+    }
+
+     /* Right content */
+     .img-cotent{
+        margin: 10px 0px;
+        width: 100%;
+        height: 350px;
+    }
+    .img-cotent .img-box-con{
+        float: left;
+        width: 100%;
+        height: 65%;
+
+    }
+
+    .img-cotent .text{
+        width: 100%;
+        height: 35%;
+        padding:20px;
+    }
+
+    .img-cotent .text h4{
+        font-size: 21px;
+    }
+
+    .img-cotent .text p{
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    .btn-go{      
+        padding:3px 12px ;
+        font-size: 14px;
+    }
+    .btn-go:hover{
+        letter-spacing: 0px;
+
+    }
+
+}
+
+/* Extra small devices (protrait phone , less that 567px)*/
+@media (max-width: 575.98px)
+{
+    .vid{
+        height:180px;
+    }
+    .left-side h1{
+        font-size: 27px;
+    }
+    .uploade-date{
+        font-size: 15px;
+    }
+    .introl{
+        font-size: 14px;
+    }
+    .box-img{
+        width: 100%;
+        height:220px;
+    }
+    .myflex .t-img{
+        order: 1;
+    }
+    .myflex .b-text
+    {
+        padding: 20px;
+        order: 2;
+    }
+    .b-text p{
+        margin: 0px;
+    }
+    .myflex .second-img
+    {
+        order: 3;
+    }
+    .myflex .text-4
+    {
+        order: 4;
+        padding: 10px;
+    }
+    .text-4 p{
+        text-indent: 0px;
+        margin-bottom: 0px;
+    }
+    .myflex .text-5
+    {
+        padding: 15px;
+        order: 5;
+    }
+    .buttom-txt{
+        padding: 0px 0px;
+        margin: 0px;
+    }
+    .text-5 p{
+        text-indent: 0px;
+    }
+    .myflex .text-6
+    {
+        order: 6;
+    }
+    .text-6 p{
+        padding: 15px;
+    }
+    /* collection */
+    .col-img{
+        height: 210px;
+    }
+    .collection{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .korjes{
+       padding-left: 10px;
+       padding-right: 10px;
+    }
+    /* Right content */
+
+
+    .img-cotent .text h4{
+        font-size: 25px;
+    }
+
+    .img-cotent .text p{
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    .btn-go{      
+        padding:3px 12px ;
+        font-size: 14px;
+    }
+    .btn-go:hover{
+        letter-spacing: 0px;
+
+    }
+
+}

@@ -1,0 +1,281 @@
+body{
+    background-color: #198754;
+    background-color: white
+    
+}
+.box-about{
+   margin: 0px 0px;
+    width:100%;
+}
+.box-about .who{
+    
+    padding: 150px 40px 0px;
+    /* margin-top:150px ; */
+    margin-bottom: 50px;
+}
+.box-about .who:last-child{
+    padding: 150px 40px;
+}
+.box-about .who-img{
+    height: 450px;
+    padding-top: 100px;
+}
+.who-img .about-img{
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.who-img .about-img:hover{
+    transform: scale(1.1);
+}
+
+.brand-name{
+    color: #198754;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 36px;
+    padding: 20px 0px;
+    transition: 0.5s;
+}
+.brand-name:hover{
+    letter-spacing:4px;
+    color: #08b665;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.445);
+}
+.detail-about{
+   font-size: 20px;
+   line-height: 35px;
+}
+.btn-go{
+    text-align: center;
+    padding: 10px;
+}
+.btn-go a{
+  text-decoration: none;
+    background-color: #08b665;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 35px;
+    font-size: 18px;
+    /* letter-spacing: 2px; */
+
+    transition: 0.3s;
+}
+.btn-go a:hover{
+    background-color: #198754;
+    letter-spacing: 3px;
+}
+
+/* Version */
+.version-box{
+    display: flex;
+}
+
+/* End versoin */
+
+
+
+
+
+
+
+
+/*  */
+/* Responsive solution */
+
+/* Extra large devices (large desktop, 1200px and up) */
+
+@media (min-width: 1200px)
+{
+
+}
+/* Large devices (desktop, 992px and up */
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)
+{      
+    .box-about .who{
+        padding: 100px 20px 50px;
+        margin-bottom: 0px;
+    }
+    
+    .box-about .who-img{
+        height: 400px;
+        padding-top: 0px;
+    }
+    .brand-name{
+        /* color: #fffb00; */
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 33px;
+        padding: 16px 0px;
+        transition: 0.5s;
+    }
+    .brand-name:hover{
+        letter-spacing:4px;
+        color: #08b665;
+        text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.445);
+    }
+    .detail-about{
+    font-size: 18px;
+    line-height: 35px;
+    }
+    
+    .btn-go a{
+        padding: 8px 30px;
+        font-size: 16px;
+    }
+    .btn-go a:hover{
+        background-color: #198754;
+        letter-spacing: 3px;
+    }
+    /* version detail box */
+    .box-about .who:nth-child(2){
+        padding: 10px 20px 50px;
+        margin-bottom: 0px;
+    }
+   /* .version .who-img:nth-child(2){
+        padding-top:0px;
+    } */
+    /* #idver{
+        padding-top: 10px;
+    }
+    .version-box .var-img{
+        order: 2;
+    }
+    .version.box .var-detail{
+        order: 1;
+    } */
+}
+/* Small devices (landscape phone, 576px and up */
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+
+    /* about box */
+    .box-about{
+        width: 100%;
+    }
+    .box-about .who{
+            margin: 0px;
+        padding:100px 10px 20px;
+    }
+    .box-about .who-img{
+        height: 400px;
+        padding: 10px 12px 50px;
+    }
+    .brand-name{
+        /* color: #0055ff; */
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 33px;
+        padding: 16px 0px;
+        transition: 0.5s;
+    }
+    .brand-name:hover{
+        letter-spacing:4px;
+        color: #08b665;
+        text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.445);
+    }
+    .detail-about{
+    font-size: 18px;
+    line-height: 35px;
+    }
+    
+    .btn-go a{
+        padding: 8px 30px;
+        font-size: 16px;
+    }
+    .btn-go a:hover{
+        background-color: #198754;
+        letter-spacing: 3px;
+    }
+    .btn-go{
+        float:left;
+    }
+    /* End about box */
+    #idver{
+        padding-top: 10px;
+    }
+    .version-box .var-img{
+        order: 2;
+    }
+    .version-box .var-detail{
+        order: 1;
+    }
+    .box-about .who:nth-child(2){
+        padding: 10px 20px 50px;
+        margin-bottom: 0px;
+    }
+}
+
+/* Extra small devices (protrait phone , less that 567px)*/
+@media (max-width: 575.98px)
+{
+        
+    /* about box */
+    .box-about{
+        width: 100%;
+       
+    }
+    .box-about .who{
+        
+            margin: 0px;
+        padding:80px 10px 10px;
+    }
+    .box-about .who-img{
+        height: 350px;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .brand-name{
+        /* color: #e01616; */
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 28px;
+        padding: 15px 0px;
+        margin: 0px;
+        transition: 0.5s;
+        text-align: center;
+    }
+    .brand-name:hover{
+        letter-spacing:3px;
+        color: #198754;
+        text-shadow:none;
+    }
+    .detail-about{
+    font-size: 15px;
+    line-height: 35px;
+    }
+    
+    .btn-go a{
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    .btn-go a:hover{
+        background-color: #198754;
+        letter-spacing: 3px;
+    }
+    .btn-go{
+        float:left;
+    }
+  
+    /* End about box */
+     /* End about box */
+     #idver{
+        padding-top: 10px;
+    }
+    .version-box .var-img{
+        order: 2;
+    }
+    .version-box .var-detail{
+        order: 1;
+    }
+    .box-about .who:nth-child(2){
+        padding: 10px 20px 20px;
+        margin-bottom: 0px;
+    }
+}
